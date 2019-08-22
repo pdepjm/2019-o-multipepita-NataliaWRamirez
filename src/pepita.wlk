@@ -12,6 +12,8 @@ object pepita {
 	method come(comida) {
 		energia = energia + comida.energiaQueOtorga()
 	}
+	
+	
 }
 
 object alpiste {
@@ -30,4 +32,30 @@ object manzana {
 	method energiaQueOtorga() { 
 		return 50
 	}	
+}
+
+object mijo{
+	var energia = 0
+	method mojarse(){
+		energia += 15
+	}
+	method secarse(){
+		energia += 20
+	}
+}
+
+object canelones {
+	var energia = 20
+	
+	method conSalsa() {
+		energia += 5
+	}
+	method conQueso() {
+		energia +=7
+	}
+	method conSalsayQueso() {
+		energia +=  5 + 7
+	}
+	
+	
 }
