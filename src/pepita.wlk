@@ -47,10 +47,7 @@ object alpiste {
 	method energiaQueOtorga() { 
 		return 4 * gramos
 	}
-	
-	method gramos(nuevosGramos) {
-		gramos = nuevosGramos
-	}	
+		
 }
 
 object manzana {
