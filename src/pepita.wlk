@@ -6,7 +6,7 @@ object pepita {
 	}
 
 	method vola(kms) {
-		energia -= 10 + kms
+		energia -= kms + 10
 	}
 
 	method come(comida) {
@@ -40,7 +40,6 @@ object pepita {
 	
 	
 }
-
 
 object alpiste {
 	var gramos = 10
