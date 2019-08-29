@@ -17,12 +17,12 @@ object pepita {
     return energia.between(500,1000)
     }
    method cuantoQuiereVolar() {
-     var km = 0
-     km += (energia / 5)
-     if(energia > 300 and energia < 400)
-       km += 10
+     var kilometro = 0
+     kilometro += (energia / 5)
+     if(energia.between(300,400))
+       kilometro += 10
      if(energia % 20 == 0)
-       km += 15
+       kilometro += 15
      
    }
    method salirAComer() {
